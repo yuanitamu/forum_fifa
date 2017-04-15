@@ -1,0 +1,415 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Elemen tag*/
+body{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	height:100%;
+}
+
+/*Elemen header*/
+#header{
+	background-image:url(../image/header_bg.png);
+	min-height:76px;
+	width:100%;
+	position:fixed;
+	box-shadow:-4px -4px 20px 5px #222;	
+}
+
+
+#logo{
+	margin: 10px 10px;
+	float:left;
+}
+
+#welcome{
+	float:left;
+	color:white;
+	margin-top:43px;
+	margin-left:40px;
+}
+
+#welcome a{
+	text-decoration:none;
+	color:white;
+	border-bottom:1px dotted;
+}
+
+#search form{
+	float:right;
+	margin-top:15px;
+	margin-right:10px;
+}
+
+#search form input#search{
+	width:200px;
+	border:0;
+	border-radius:15px;
+	padding-left:5px;
+}
+
+#search form input#s-submit{
+	border:0;
+	border-radius:15px;
+	width:50px;
+}	
+
+/*Elemen content*/
+.body1{
+	width:960px;
+	height:840px;
+	margin:auto;
+	background:#EEE;
+}
+#content{
+	min-height:25%;
+	width:900px;
+	margin:auto;
+	margin-bottom:10px;
+	padding-top:45px;
+}
+
+#errorbox{
+	margin:auto;
+	margin-top:50px;
+	padding:15px;
+	background:#FF8080;
+	color:white;
+	max-width:200px;
+	border-radius:10px;
+}
+
+.posting1{
+	width:500px;
+	margin:auto;
+	background:#FFFFFF;
+	margin-top:10px;
+	padding:15px;
+	overflow:auto;
+	border-radius:10px;
+}
+.posting{
+	width:850px;
+	margin:auto;
+	background:#FFFFFF;
+	margin-top:10px;
+	padding:15px;
+	overflow:auto;
+	border-radius:10px;
+}
+
+.posting, .postutama, .comment, #commentbox{
+	box-shadow:0 0 7px #BBB;
+}
+
+#postitle{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#postitle a{
+	text-decoration:none;
+	border-bottom:1px dotted;
+}
+
+.posting span{
+	font-size:14px;
+	color:#333333;
+	font-weight:normal;
+}
+
+#postall, #commentall{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px;
+	margin-bottom:15px;
+	border-radius:15px;
+}
+
+#postall a, #commentall a{
+	text-decoration:none;
+	border-bottom:1px dotted;
+}
+
+#postall{
+	background:#FFE0CC;
+}
+
+#commentall{
+	background:#FFFFC9;
+}	
+
+#postinfo{
+	float:right;
+	font-weight:normal;
+	font-size:12px;
+}
+
+#countcomment{
+	float:right;
+	margin-left:150px;
+	font-size:12px;
+}
+
+.postutama{
+	width:850px;
+	margin:auto;
+	margin-bottom:15px;
+	padding:20px;
+	background:#FFF;
+	border-radius:15px;
+}
+.message1{
+	width:850px;
+	margin:auto;
+	margin-top:25px;
+	padding:20px;
+	background:#FFF;
+	border-radius:15px;
+}
+#postutamatitle{
+	font-size:20px;
+	font-weight:bold;
+}
+#message{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+#postutamatitle a, #postutamatitle a:visited{
+	text-decoration:none;
+	font-size:13px;
+	background:#99CC99;
+	color:#003399;
+	padding:2px 5px 2px 5px;
+	border-radius:8px;
+}
+
+#postutamatitle a:hover{
+	background:#99FF99;
+}
+#message a, #message a:visited{
+	text-decoration:none;
+	font-size:13px;
+	background:#99CC99;
+	color:#003399;
+	padding:2px 5px 2px 5px;
+	border-radius:8px;
+}
+
+#message a:hover{
+	background:#99FF99;
+}
+
+#postutamainfo{
+	font-size:12px;
+	color:#777;
+}
+
+#postbarter, #postbarter2{
+	width: 500px;
+	padding:25px;
+	border-radius:15px;
+	margin:auto;
+	margin-top:10px;
+}
+
+#postminat{
+	margin:auto;
+	font-size:11px;
+	width:800px;
+	margin-top:25px;
+	background:#F0D1B2;
+	padding:6px;
+	border-radius:10px;
+}
+
+#postjudul, #posttextar, #postipe{
+	margin-bottom:20px;
+	width:850px;
+	background:#CCFFCC;
+	padding:15px;
+	border-radius:10px;
+	box-shadow:0 0 7px #BBB;
+}
+
+.newbarter{
+	height:80px;
+}
+
+#postnewbarter, #postnewbarter2{
+	float:left;
+	width:400px;
+	margin-left:10px;
+	padding:15px;
+	border-radius:10px;
+	box-shadow:0 0 7px #BBB;
+}
+
+#postnewbarter input, #postnewbarter2 input{
+	width:400px;
+}
+
+#postnewbarter{
+	background:#CCFFFF;
+}
+
+#postnewbarter2{
+	background:#F0E0FF;
+}
+
+#postipe{
+	margin-top:20px;
+}
+
+#postjudul input{
+	width:500px;
+}
+
+#posttextar textarea{
+	padding:0;
+	width:500px;
+	height:200px;
+	resize:none;
+}
+
+.comment, #commentbox{
+	width:850px;
+	margin:auto;
+	margin-bottom:10px;
+	background:#FFF;
+	padding:20px;
+	border-radius:10px;
+}
+
+#commentbox{
+	background:#E6F0FF;
+}
+
+#commentbox span{
+	font-size:12px;
+	color:#777;
+}
+
+#commentbox:hover{
+	background:#CCEBFF;
+}
+
+.comment textarea{
+	width:500px;
+	height:100px;
+	margin-bottom:10px;
+}
+
+#baru{
+	margin:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	background:#FF9999;
+	width:700px;
+	padding:10px;
+	border-radius:10px;
+}
+
+#baru a{
+	text-decoration:none;
+}
+
+#baru:hover{
+	background:#FFC2C2;
+}
+
+#g{
+	height:330px;
+	width:248px;
+	margin:22px;
+	margin-bottom:60px;
+	float:left;
+	box-shadow:0px 0px 13px 3px #222;	
+}
+
+#form, #upload{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	background:#555;
+	width:400px;
+	padding:10px;
+	border-radius:15px;
+	box-shadow:0 0 10px 5px #222;	
+}
+
+#upload{
+	margin-top:90px;
+	width:400px;
+	color:white;
+}
+
+#upload form#submit{
+	width:100px;
+}
+
+#form a{
+	color:#BBB;
+}
+
+#form a:hover{
+	color:white;
+}
+
+#submit, #s-submit{
+	width:80px;
+}
+
+#help{
+	background-color:white;
+	padding:20px;
+	padding-bottom:40px;
+	border-radius:10px;
+	margin-top:10px;
+	box-shadow:0px 0px 20px 3px #222;	
+}
+
+/*Elemen footer*/
+#footer{
+	background-image:url(../image/footer_bg.png);
+	padding-top:15px;
+	min-height:25px;
+	width:100%;
+	bottom:0;
+	left:0;
+	position:fixed;
+	color:#FFF;
+	box-shadow:-4px 4px 20px 5px #222;			
+}
+
+#menu{
+	float:right;
+	margin:10px;
+	margin-top:-40px;
+}
+
+#menu li{
+	list-style:none;
+	font-weight:bold;
+	float:left;
+	margin-top:20px;
+	padding:5px 15px 5px 15px;
+}
+
+#menu a{
+	color:white;
+}
+
+#menu li:hover{
+	background:#CCC;
+	color:#333;
+	border-radius:8px;
+}
+
+span{
+	margin-left:15px;
+}

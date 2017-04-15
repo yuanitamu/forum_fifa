@@ -1,0 +1,112 @@
+#content{
+	min-height:25%;
+	width:800px;
+	margin:auto;
+	margin-bottom:20px;
+	padding-bottom:35px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	background:none;
+}
+.posting{
+	width:765px;
+	background:#FFFFFF;
+	padding:15px;
+	overflow:auto;
+	box-shadow:0 0 7px #BBB;
+}
+.posting1{
+	width:inherit;
+	margin-left:230px;
+	margin-right:230px;
+	background:#FFFFFF;
+	padding:15px;
+}
+
+.posting span{
+	font-size:14px;
+	color:#333333;
+	font-weight:normal;
+}
+.message1{
+	width:800px;
+	margin:auto;
+	margin-top:0px;
+	padding:0px;
+}
+.msg{
+	font-family:"Maiandra GD";
+	font-size:60px;
+	color:#FFFFFF;
+}
+.msg1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:30px;
+	color:#FFFFFF;
+	border-bottom:groove;
+	border-bottom-color:#000000;
+}
+#message a, #message a:visited{
+	text-decoration:none;
+	font-size:20px;
+	color:#FFFFFF
+	padding:5px 8px 5px 8px;
+}
+
+#message a:hover{
+	background:#CCFFFF;
+}
+#message{
+	font-size:20px;
+	font-weight:bold;
+	border-style:inherit;
+	table-layout:fixed;
+	border-color:#FFFFFF;
+	margin:auto;
+}
+#postjudul, #posttextar{
+	float:left;
+	width:765px;
+	padding:15px;
+	box-shadow:0 0 7px #BBB;
+	background-color:#FFFFFF;
+	
+}
+#postjudul input{
+	width:750px;
+	padding:10px;
+}
+
+#posttextar textarea{
+	padding:20;
+	width:750px;
+	height:200px;
+	resize:none;
+}
+#submit{
+	width:80px;
+}
+#postitle{
+	font-size:18px;
+	font-weight:bold;
+}
+#postinfo{
+	float:right;
+	font-weight:normal;
+	font-size:12px;
+}
+#baru{
+	margin:auto;
+	margin-top:0px;
+	margin-bottom:25px;
+	background:#CCFFCC;
+	width:700px;
+	padding:10px;
+	border-radius:10px;
+}
+#baru a{
+	text-decoration:none;
+}
+#baru:hover{
+	background:#FFFFFF;
+}
