@@ -3,3 +3,8 @@
 - yuanita muharyani utami
 - riki hendra laxsmana
 - zainal arifien
+
+merupakan aplikasi berbasis web dengan menggunakan framework CI (code igniter) dimana web ini 
+adalah forum sebagai wadah untuk para penggemar fifa world cup 2014.
+ada beberapa fitur yang dapat digunakan setelah daftar dan login pada forum ini, yaitu post, live 
+score, klasemen, profil, dan message.
